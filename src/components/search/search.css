@@ -1,0 +1,68 @@
+.SearchSelect {
+    position: relative;
+  }
+  
+  .SearchSelect input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .SearchSelect ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .SearchSelect li {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .SearchSelect li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .SearchSelect li.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .SearchSelect li.selected:hover {
+    background-color: #0069d9;
+  }
+  
+  .SearchSelect .selected-items {
+    margin-top: 8px;
+  }
+  
+  .SearchSelect .selected-items ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .SearchSelect .selected-items li {
+    margin-right: 8px;
+    padding: 4px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  .SearchSelect .selected-items li:hover {
+    background-color: #0069d9;
+  }
+  
